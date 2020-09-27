@@ -1,17 +1,13 @@
 package com.example.demo.entities;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-
-@Entity
+//@Entity
 public class Books {
 	
-	@Id
-	@Column
+	//@Id
+	//@Column
 	private Integer id;
 	
-	@Column
+	//@Column
 	private String name;
 
 	public Integer getId() {
